@@ -1,0 +1,48 @@
+
+
+*{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h1{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: left;
+    letter-spacing: 0.085em;
+     
+    
+      .main__span{
+        position: absolute;
+        right: 0;
+        width: 0;
+        // background-color: black;
+        border-left: 3px solid white;
+        
+    
+        animation: maquina 2s infinite alternate steps(13);
+      }
+    }
+    
+    @keyframes maquina {
+      from {
+        width: 100%;
+      }
+      to{
+        width: 0;
+      }
+    }
